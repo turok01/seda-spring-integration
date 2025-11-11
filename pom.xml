@@ -30,6 +30,18 @@
             <artifactId>spring-integration-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-core</artifactId>
+            <version>4.16.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-test-junit5</artifactId>
+            <version>4.16.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
